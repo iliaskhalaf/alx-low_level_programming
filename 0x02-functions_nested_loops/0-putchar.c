@@ -1,21 +1,21 @@
-#include "main.h"
-
+#include <stdio.h>
+/* more headers goes there /
+/ betty style doc for function main goes there*/
 /**
- * main - Entry point 
- * Return: Always 0
+ * main - prints all alphabet in lower case x 10.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+return (0);
 }	
